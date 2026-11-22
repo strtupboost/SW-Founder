@@ -1,0 +1,45 @@
+/* SuperWarm.AI — Spacing, radii, shadows
+ * 4px base grid. Radii and shadows extracted from the dashboard frame. */
+:root {
+  /* ---- Spacing scale (4px base) ---- */
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ---- Radii ---- */
+  --radius-xs:   2px;   /* checkbox */
+  --radius-sm:   5px;   /* logo tile / avatar square */
+  --radius-md:   8px;   /* inputs, small buttons */
+  --radius-lg:   10px;  /* cards */
+  --radius-xl:   16px;  /* large panels */
+  --radius-2xl:  20px;  /* hero banner */
+  --radius-pill: 999px; /* badges, toggles, buttons */
+
+  /* ---- Shadows ---- */
+  /* The product's signature lift — soft, wide, lifted upward */
+  --shadow-card:  0 4px 30px -9px rgba(0,0,0,0.15);
+  --shadow-sm:    0 1px 4px rgba(0,0,0,0.06);
+  --shadow-md:    0 4px 16px -6px rgba(0,0,0,0.12);
+  --shadow-pop:   0 8px 40px -12px rgba(0,0,0,0.18);
+  --shadow-focus: 0 0 0 3px rgba(42,93,255,0.18);
+
+  /* ---- Layout ---- */
+  --nav-height:    73px; /* @kind other */
+  --rail-width:    72px; /* @kind other */
+  --content-max:   1280px; /* @kind other */
+
+  /* ---- Motion ---- */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1); /* @kind other */
+  --ease-out:      cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --dur-fast:   120ms; /* @kind other */
+  --dur-base:   180ms; /* @kind other */
+  --dur-slow:   260ms; /* @kind other */
+}
