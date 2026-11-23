@@ -1,0 +1,31 @@
+/* SuperWarm.AI — base element defaults.
+ * Light-touch resets so specimens and kits inherit the brand baseline. */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--lh-normal);
+  color: var(--text-body);
+  background: var(--bg-app);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  color: var(--text-strong);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-snug);
+}
+
+a { color: var(--color-link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Money / metric figures read in the brand blue with Public Sans tabular feel */
+.sw-figure {
+  color: var(--color-figure);
+  font-weight: var(--fw-bold);
+  font-variant-numeric: tabular-nums;
+}
