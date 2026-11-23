@@ -1,8 +1,0 @@
-/* SuperWarm.AI — Webfonts
- * Primary UI face is "Muli" in the source Figma. Muli was renamed "Mulish"
- * by its foundry; Mulish is the current, actively-maintained release and is a
- * 1:1 continuation of the same typeface. We load Mulish from Google Fonts.
- * Public Sans is the secondary face (data / tabular contexts).
- * --- SUBSTITUTION FLAG: Muli -> Mulish (same family, renamed). ---
- */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap');
